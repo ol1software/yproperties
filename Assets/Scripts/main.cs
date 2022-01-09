@@ -69,6 +69,8 @@ public class main : MonoBehaviour    {
 
 
 // BOTONES PORTADA
+    public Text empresatxt1;
+
     public Button boton_start, boton_ranking, boton_opciones;
 
 
@@ -145,18 +147,21 @@ public class main : MonoBehaviour    {
         PlayerPrefs.SetInt("juegoempezado", 0);
 
     // Acceso a los otros scripts
-    puntuacion1 = Funciones.GetComponent<puntuacion>();     // puntuacion.cs
-    ol1ascript1 = Funciones.GetComponent<OL1AScript>();     // ol1ascript.cs
+   // puntuacion1 = Funciones.GetComponent<puntuacion>();     // puntuacion.cs
+    //ol1ascript1 = GetComponent<OL1AScript>();     // ol1ascript.cs
+        ol1ascript1 = GameObject.Find("ndh").GetComponent<OL1AScript>();
+        empresatxt1 = GameObject.Find("empresatxt").GetComponent<Text>();
+
+        empresatxt1.text ="Joe Business SA";
+
+        // Log en fb pun tuacion1.FacebookLogin();
 
 
-     // Log en fb puntuacion1.FacebookLogin();
-          
-        
         // Lee prefs y Pone check de opciones en on/off según Playerprefs
         PlayerPrefs.SetString("pantalla", "portada");   
-        AplicaOpciones();
+     //   AplicaOpciones();
         
-        puntuacion1.RellenaPuntos("portada");
+      //  puntuacion1.RellenaPuntos("portada");
 //        int i = PlayerPrefs.GetInt("puntos");
 
 
