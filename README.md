@@ -4,8 +4,7 @@ yourproperties GAME
 
 *DESCRIPTION Juego de estrategia tipo negocios, compraventa inmobiliaria.
 
-*SOURCE Unity3D (C #) 5.04.f3
-
+*SOURCE Unity3D (C #) Unity 2020.3.23f
 *DEPLOY 1st quarter 2022
 
 *CREDITS OL1 SOFTWARE www.ol1software.com www.twitter.com/ol1software www.instagram.com/ol1software
