@@ -1,0 +1,64 @@
+MOTOR JUEGO
+
+>MAINSCREEN
+
+BOTONES
+
+1- PASAR TURNO
+
+2- MERCADO PISOS
+
+	!LISTADOPISOS
+
+	1- COMPRAR
+
+	2 - VENDER
+
+	3- ALQUILAR
+
+	INVERTIR
+
+
+3 - DATOS BUSINESS
+
+4 - CONTABLE
+
+5 - PARTIDA (CARGA/GUARDA)
+
+
+PANTALLA
+
+- FECHA DIASEMANA / DDMMAA
+- EMPRESA / CAJA
+- PRESTAMOEUR / MES_ANY_FIN
+- PROPIEDADES
+- BALANCE +-
+
+*****************************************************
+
+CICLO JUEGO (cada vez q se haga click en BOTON1)
+-----------
+*fecha (sumarsemana)
+dia,mes,anyo +-
+fechaactual +-
+
+*MotorIngresosGastos()
+empresa.caja +-
+
+*MotorEventosRandom()
+
+*RellenarPantalla()
+
+BOTON2 (MERCADO)
+--------
+>MARKETSCREEN
+
+!LISTADOPISOS
+
+1- COMPRAR
+
+2 - VENDER
+
+3- ALQUILAR
+
+INVERTIR

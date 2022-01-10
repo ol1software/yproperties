@@ -1,0 +1,102 @@
+
+JUEGO
+int dia, mes, anyo
+date fechaactual, fechainicio
+
+7 1 2020
+7/12/2020 7/12/2020
+
+
+EMPRESA
+String nombreSL
+int caja
+String nombreCeo
+int idinmuebleSede
+int prestamoEuros
+int prestamoMeses
+
+MisCasas
+2.500.000
+Pep Guardy
+0
+0
+0
+
+
+
+
+BARRIO
+String nombarrio
+int idbarrio
+int nice (0-100)
+int preciomediom2
+
+ensanche de vk
+1
+20
+500
+
+
+
+	INMUEBLE
+	int idinmueble
+	boolean enpropiedad
+	String nomcalle
+	int portal, piso
+	int calidad (0-100)
+	int nicecalle (0-100)
+	int habitaciones (0-5)
+	int tamanyom2
+	int valor (50k - 2M)
+	int anyo (1950-2020)
+    
+	
+	1
+	yes
+	avenida del ensanche
+	20
+	2
+	60
+	50
+	1
+	60
+	125000
+	2012
+	
+	
+	
+	GASTOS INMUEBLE (según anyo y calidad)
+    int idinmueble
+	int Tipo
+	1-7
+	Hipoteca.
+    Comunidad
+    Impuesto sobre Bienes Inmuebles (IBI)
+    Tasa de basuras.
+    Seguro de hogar.
+    Luz
+	Agua
+	String nombregasto
+	int euros
+	
+	1
+	2
+	120
+	
+	
+	**
+	
+	
+	
+    GASTOS
+     int idgasto
+     String nombre, tipogasto (inmueble, vehiculo, general, SL)
+     int euros
+     
+	 
+EVENTO
+int idevento
+String textoevento
+int dineroevento
+
+	
